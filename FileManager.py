@@ -20,7 +20,7 @@ print("Список команд для ввода:"
 
 command = input("Введите команду: ")
 all_commands = ["crdir", "deldir", "cddir", "mkfile", "wrfile", "catfile", "rmf", "cpfile", "mvfile", "renamef"]
-node = os.path.abspath(wd)  # Определяем начальный путь
+node = os.path.abspath(workdir)  # Определяем начальный путь
 save_node = node  # Сохраняем этот путь как корневой
 path_node = node  # Определяем корневой путь как текущий
 
